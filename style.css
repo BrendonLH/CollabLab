@@ -6,6 +6,43 @@ body {
     margin: auto;
 }
 
-ul {
-   float: left; 
+/* ul {
+   float: left;
+   
+} */
+
+#listtable {
+    position: relative;
+    /* top: 295px; */
+    left: 25px;
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    line-height: 35px;
+}
+#listone {
+    padding-top: 15px;
+}
+
+#listtwo {
+    position: absolute;
+    top: 0px;
+    right: 150px;
+    /* margin-left: 60px; */
+    max-width: 400px;    
+}
+
+span {
+    margin-left: 25px;
+}
+
+#imagelist {
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    z-index: -1;
+  
 }
